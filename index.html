@@ -1,108 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibek Silwal – Educator & Botany Student</title>
-    <style>
-        /* Base Styles */
-        body {
-            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: column; /* Stack image and intro vertically */
-            max-width: 800px;
-            width: 100%;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            background: white;
-            text-align: center; /* Center all text */
-        }
-
-        .container img {
-            max-width: 200px;
-            border-radius: 50%;
-            margin: 0 auto 20px auto; /* Center image and add space below */
-        }
-
-        .intro {
-            flex: 1;
-            text-align: center;
-        }
-
-        .social-media {
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .social-media a {
-            margin: 0 10px;
-            text-decoration: none;
-            font-size: 1.2em;
-            color: #333;
-        }
-
-        .social-media a:hover {
-            color: #0077b5;
-        }
-
-        footer {
-            margin-top: 20px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #555;
-        }
-
-        footer a {
-            text-decoration: none;
-            color: #0073e6;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* Media Query for Mobile Devices */
-        @media (max-width: 600px) {
-            .container img {
-                max-width: 150px; /* Make the image smaller on mobile */
-            }
-
-            .social-media a {
-                display: block; /* Stack links vertically on mobile */
-                margin: 10px 0;
-            }
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Bibek Silwal</title>
 </head>
 <body>
+<section class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-col">
+    <div class="lg:w-4/6 mx-auto">
+      <div class="rounded-lg h-64 overflow-hidden">
+        <img alt="content" class="object-cover object-center h-full w-full" src="pic1.jpg">
+      </div>
+     <div class="flex flex-col sm:flex-row mt-10">
+  <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+    <!-- Image Section Only -->
+    <div class="flex items-center justify-center">
+      <img src="bis.jpg" alt="Bibek Silwal" class="w-40 h-56 rounded-lg">
+    </div>
+  </div>
+  
+  <!-- Right Side Text Section -->
+  <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+    <p class="leading-relaxed text-lg mb-4">
+      Hi! I'm Bibek Silwal, a dedicated educator and student. While I’m currently studying Botany, my teaching spans different subjects, where I strive to inspire and empower students to reach their full potential. With a love for learning and curiosity about the world around us, I aim to combine my academic journey with my role as a teacher to make a positive impact on those I guide.
+    </p>
+  </div>
+</div>
 
-    <div class="container">
-        <img src="bis.jpg" alt="Bibek Silwal">
-        <div class="intro">
-            <h1>Welcome to Bibek Silwal's Corner</h1>
-            <p>Hi! I'm Bibek Silwal, a dedicated educator and student. While I’m currently studying Botany, my teaching spans different subjects, where I strive to inspire and empower students to reach their full potential. With a love for learning and curiosity about the world around us, I aim to combine my academic journey with my role as a teacher to make a positive impact on those I guide.</p>
+  </div>
+  <section class="text-gray-400 body-font bg-gray-900">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Photo Library</h1>
+        <div class="h-1 w-20 bg-green-500 rounded"></div>
+      </div>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90">I’m a passionate botany student and an adventurer who loves exploring the incredible world of plants. My journey takes me into diverse ecosystems, where I capture the beauty and diversity of flora through photography. On this website, you'll find a collection of images and stories that celebrate my adventures in nature.</p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="pic2.jpg" alt="content">
+          <h3 class="tracking-widest text-green-400 text-s font-medium title-font">Vultures Feeding</h3>
+          <h2 class="text-lg text-white font-medium title-font mb-4">Chitwan-Sauraha</h2>
+          <p class="leading-relaxed text-base">A large group of vultures, predominantly white-backed and white-rumped vultures, are gathered around a carcass in a grassy field. The vultures are in various stages of feeding, with some tearing at the flesh while others wait for their turn..</p>
         </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="pic3.jpg" alt="content">
+          <h3 class="tracking-widest text-green-400 text-s font-medium title-font">Vulture preparing to land</h3>
+          <h2 class="text-lg text-white font-medium title-font mb-4">Chitwan-Sauraha</h2>
+          <p class="leading-relaxed text-base">A vulture, likely a white-backed vulture, is seen approaching a carcass in a field. Its wings are partially spread as it moves closer, indicating its interest in the food. The vulture's keen eyesight has spotted the meat, and it is ready to join the other vultures in feasting.</p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="pic4.jpg" alt="content">
+          <h3 class="tracking-widest text-green-400 text-s font-medium title-font">Examination-Hall</h3>
+          <h2 class="text-lg text-white font-medium title-font mb-4"></h2>
+          <p class="leading-relaxed text-base">My students during their Class-Test.</p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="pic5.jpg" alt="content">
+          <h3 class="tracking-widest text-green-400 text-s font-medium title-font">Bishazari Tal</h3>
+          <h2 class="text-lg text-white font-medium title-font mb-4">Chitwan National Park</h2>
+          <p class="leading-relaxed text-base">Bishazari Tal, also spelled Beeshazar Tal, is an extensive oxbow lake system in the buffer zone of the Chitwan National Park, a protected area in the Inner Terai of central Nepal. This wetland covers an area of 3,200 ha (7,900 acres) at an altitude of 286 m (938 ft).</p>
+        </div>
+      </div>
     </div>
-
-    <div class="social-media">
-        <a href="https://www.facebook.com/bibek.silwal.98" target="_blank">Facebook</a>
-    </div>
-
-    <footer>
-        Page Made by <a href="https://github.com/Rubinyes" target="_blank">Rubinyes</a>
-    </footer>
-
+  </div>
+</section>
+</section>
+<footer class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+     
+    </a>
+    <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2024 Bibek Silwal. All Rights Reserved.
+     
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-400" href="https://www.facebook.com/bibek.silwal.98">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-400" href="https://www.facebook.com/bibek.silwal.98">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-400" href="https://www.facebook.com/bibek.silwal.98">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-400" href="https://www.facebook.com/bibek.silwal.98">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </span>
+  </div>
+</footer>
 </body>
 </html>
